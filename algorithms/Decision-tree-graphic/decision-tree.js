@@ -2,6 +2,12 @@ function transportationOptions() {
     // Write code here to make the decision tree into an algorithm!
     // what's the weather? input button
     // weather? overall grandparent
+    let weather;
+    let time;
+    let hungry;
+    let bus;
+    let walk;
+    let transportation;
       // if weather === rain, return bus
       // else if weather === cloudy, return text input
         // is hungry? radio select (true/false)
