@@ -1,6 +1,4 @@
 /**
-Take 45 minutes to complete this exercise. If you need more time, you can use Focus Friday.  
- 
 Write a JavaScript function that takes an array of integers as input and returns true if there are any duplicate elements in the array, and false otherwise.
 
 Input:
@@ -19,8 +17,12 @@ Steps:
 6. After iterating through the entire array, if no duplicates are found, return false.
  */
 
+let encounteredNum = {};
+
 function hasDuplicates(arr) {
-   
+   for (i = 0; i < arr.length; i++) {
+    
+   }
 }
 
 // Example usage
