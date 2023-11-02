@@ -19,3 +19,9 @@ function transportationOptions() {
           // time == <30 mins, return bus
 
   }
+
+// TERMINAL GIT PUSH INSTRUCTIONS:
+// 1. cd into the repo
+// 2. git add .
+// 3. Git commit -m “commit message”
+// 4. Git push origin main
