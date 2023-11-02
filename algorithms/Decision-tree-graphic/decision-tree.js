@@ -23,5 +23,5 @@ function transportationOptions() {
 // TERMINAL GIT PUSH INSTRUCTIONS:
 // 1. cd into the repo
 // 2. git add .
-// 3. Git commit -m “commit message”
-// 4. Git push origin main
+// 3. git commit -m “commit message”
+// 4. git push origin main
