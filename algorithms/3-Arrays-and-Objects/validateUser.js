@@ -1,6 +1,4 @@
 /**
-Please take 45 minutes to complete this exercise. If you still need more time, you can use Focus Friday.
-
 Write a JavaScript function that takes a list of registered users (an array of objects containing usernames and passwords) and a username and password as input. The function should return true if the provided username and password match any of the registered users, and false otherwise.
 
 Input:
@@ -18,8 +16,10 @@ Steps
  */
 
 function validateUserCredentials(users, inputUsername, inputPassword) {
-    
+    return users.some(user => user.username === inputUsername && user.password === inputPassword);
 }
+
+users.some(validateUserCredentials);
 
 // Example usage
 const registeredUsers = [
@@ -30,3 +30,16 @@ const registeredUsers = [
 const username = "user1";
 const password = "password123";
 console.log(validateUserCredentials(registeredUsers, username, password)); // Output: true
+
+
+
+// from mdn:
+//
+// const fruits = ["apple", "banana", "mango", "guava"];
+
+// function checkAvailability(arr, val) {
+//   return arr.some((arrVal) => val === arrVal);
+// }
+
+// checkAvailability(fruits, "kela"); // false
+// checkAvailability(fruits, "banana"); // true
