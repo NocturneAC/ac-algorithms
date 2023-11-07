@@ -23,6 +23,7 @@ function findLongestWord(str) {
       longestWordLength = words[i].length;
     } else if (words[i].length > shortestWordLength) {
       shortestWordLength = words[i].length;
+      // hey you! you didn't need to do all this extra work. slow down and breathe :)
     }
   }
   
