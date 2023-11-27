@@ -17,6 +17,8 @@ Steps:
 6. After iterating through the entire array, if no duplicates are found, return false.
  */
 
+// documentation: .filter(); and indexOf
+
 let encounteredNum = [];
 
 function hasDuplicates(arr) {
@@ -34,3 +36,34 @@ const numbers1 = [1, 2, 3, 4, 5, 6];
 const numbers2 = [1, 2, 3, 4, 2, 6];
 console.log(hasDuplicates(numbers1)); // Output: false
 console.log(hasDuplicates(numbers2)); // Output: true
+
+
+/* <!DOCTYPE html>
+<html>
+<body>
+   <h3>Finding duplicate values in a JavaScript array</h3>
+   <p>Here, we will find the repeating values in the given array.</p>
+   <p>Original array: [6, 9, 15, 6, 13, 9, 11, 15]</p>
+   <p id="result"></p>
+   <script>
+      //simple traversal method
+      let array = [6, 9, 15, 6, 13, 9, 11, 15];
+      let index = 0, newArr = [];
+      const length = array.length; // to get length of array
+      function findDuplicates(arr) {
+         for (let i = 0; i < length - 1; i++) {
+            for (let j = i + 1; j < length; j++) {
+            if (arr[i] === arr[j]) {
+                  newArr[index] = arr[i];
+                  index++;
+               }
+            }
+         }
+         return newArr;
+      }
+      document.getElementById('result').innerHTML = 'Duplicate values are: <b>' + findDuplicates(array) + '</b>';
+   </script>
+</body>
+</html>
+
+*/
