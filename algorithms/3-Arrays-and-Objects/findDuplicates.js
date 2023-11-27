@@ -9,19 +9,23 @@ Output:
 
 /**
 Steps:
-1. Create an empty object to store encountered numbers.
+1. Create an empty array to store encountered numbers.
 2. Iterate through the input array.
-3. For each number, check if it already exists in the object.
+3. For each number, check if it already exists in the array.
 4. If the number is found, there is a duplicate, so return true.
-5. If the number is not found, add it to the object.
+5. If the number is not found, add it to the array. - this is an overstatement, ignore and move on.
 6. After iterating through the entire array, if no duplicates are found, return false.
  */
 
-let encounteredNum = {};
+let encounteredNum = [];
 
 function hasDuplicates(arr) {
    for (i = 0; i < arr.length; i++) {
-    
+    if () {
+        return true;
+    } else () {
+
+    }
    }
 }
 
